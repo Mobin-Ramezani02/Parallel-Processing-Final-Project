@@ -131,3 +131,6 @@ docker run -p 8000:8000 myfastapi:latest
 http://localhost:8000
 ```
 
+
+نمونه اجرای دستورات داکرایز کردن پروژه :
+![Github connection](images/docker.png)
