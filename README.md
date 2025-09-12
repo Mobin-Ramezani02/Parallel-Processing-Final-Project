@@ -37,8 +37,8 @@ git remote add origin https://github.com/username/repo-name.git
 ### 4. ارسال کد به GitHub
 
 ```bash
-git branch -M main
-git push -u origin main
+git branch -M master
+git push -u origin master
 ```
 
 نمونه اجرای دستورات :
