@@ -42,8 +42,8 @@ git push -u origin main
 ```
 
 نمونه اجرای دستورات :
-![Github connection](images/logo.png)
-![Github connection](images/logo.png)
+![Github connection](images/github1.png)
+![Github connection](images/github2.png)
 ---
 
 
