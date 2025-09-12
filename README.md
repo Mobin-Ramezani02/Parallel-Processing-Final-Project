@@ -50,8 +50,9 @@ git push -u origin master
 # داکرایز کردن پروژه
 ## 1) پیش‌نیازها
 
-- نصب **Docker** و **Docker Compose v2**
-- ساخت فایل‌های: `Dockerfile`، `.dockerignore`
+نصب **Docker** و **Docker Compose v2**
+
+ساخت فایل‌های: `Dockerfile`، `.dockerignore`
 
 
 ## 2) `.dockerignore`
