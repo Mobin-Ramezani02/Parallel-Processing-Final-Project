@@ -23,7 +23,7 @@ function runScenario() {
 
   statusText.textContent = "در حال اجرا ...";
   explanation.textContent = "";
-  output.textContent = ""; // ← باکس خروجی را همین‌جا خالی کن
+  output.textContent = "";
 
   fetch(url)
     .then(r => r.json())
