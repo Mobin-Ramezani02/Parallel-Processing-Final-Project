@@ -1,0 +1,28 @@
+body {
+  direction: rtl;
+  background-color: #7f878f;
+}
+.card {
+  margin-top: 50px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+h2,
+h4 {
+  color: #003366;
+}
+label {
+  font-weight: bold;
+}
+#output {
+  direction: ltr;
+}
+pre {
+  background: #f1f1f1;
+  padding: 1em;
+  border-radius: 5px;
+}
+
+.text {
+  direction: rtl;
+  text-align: right;
+}
