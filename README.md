@@ -42,7 +42,7 @@ git push -u origin main
 ```
 
 نمونه اجرای دستورات :
-![Project Logo](images/logo.png)
+![Github connection](images/logo.png)
 
 ---
 
