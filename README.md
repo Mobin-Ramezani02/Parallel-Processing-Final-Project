@@ -49,9 +49,10 @@ git push -u origin master
 
 # داکرایز کردن پروژه
 
+# 1. پیش‌نیازها
 
-
-
+نصب Docker
+ساخت فایل‌های: Dockerfile، .dockerignore
 
 
 
