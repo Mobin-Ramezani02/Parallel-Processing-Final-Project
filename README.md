@@ -27,4 +27,9 @@ git commit -m "Initial commit"
 
 
 
-## 3. آماده‌سازی پروژه روی سیستم
+## 3. اتصال به ریپازیتوری GitHub
+```bash
+git remote add origin <URL>
+```
+مثال :
+git remote add origin https://github.com/username/repo-name.git
