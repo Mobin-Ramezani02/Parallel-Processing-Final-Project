@@ -41,7 +41,18 @@ git branch -M main
 git push -u origin main
 ```
 
+نمونه اجرای دستورات :
+![Project Logo](images/logo.png)
+
 ---
 
 
 # داکرایز کردن پروژه
+
+
+
+
+
+
+
+
