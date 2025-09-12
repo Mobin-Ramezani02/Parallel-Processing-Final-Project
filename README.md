@@ -48,14 +48,14 @@ git push -u origin master
 
 
 # داکرایز کردن پروژه
-## 1) پیش‌نیازها
+### 1. پیش‌نیازها
 
 نصب **Docker** و **Docker Compose v2**
 
 ساخت فایل‌های: `Dockerfile`، `.dockerignore`
 
 
-## 2) `.dockerignore`
+### 2. `.dockerignore`
 
 فایل‌های غیرضروری وارد ایمیج نشوند:
 
@@ -114,7 +114,7 @@ CMD ["gunicorn", "--bind", "0.0.0.0:8000", "-k", "uvicorn.workers.UvicornWorker"
 ```
 ---
 
-## 4) Build و Run
+### 3. Build و Run
 
 **Build:**
 ```bash
