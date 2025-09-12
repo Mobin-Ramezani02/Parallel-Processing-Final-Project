@@ -53,7 +53,6 @@ git push -u origin master
 - نصب **Docker** و **Docker Compose v2**
 - ساخت فایل‌های: `Dockerfile`، `.dockerignore`
 
----
 
 ## 2) `.dockerignore`
 
