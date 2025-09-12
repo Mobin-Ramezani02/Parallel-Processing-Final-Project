@@ -25,3 +25,9 @@
 git init
 git add .
 git commit -m "Initial commit"
+
+
+
+---
+
+## ۲. آماده‌سازی پروژه روی سیستم
