@@ -41,7 +41,7 @@ git branch -M master
 git push -u origin master
 ```
 
-نمونه اجرای دستورات :
+نمونه اجرای دستورات اتصال پروژه به GitHub :
 ![Github connection](images/github1.png)
 ![Github connection](images/github2.png)
 ---
