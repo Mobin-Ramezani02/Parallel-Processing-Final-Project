@@ -23,6 +23,7 @@ function runScenario() {
 
   statusText.textContent = "در حال اجرا ...";
   explanation.textContent = "";
+  output.textContent = ""; // ← باکس خروجی را همین‌جا خالی کن
 
   fetch(url)
     .then(r => r.json())
@@ -32,12 +33,7 @@ function runScenario() {
       } else {
         output.textContent = JSON.stringify(data, null, 2);
       }
-      // ست‌کردن توضیح اگر موجود بود
-      if (data.explanation) {
-        explanation.textContent = data.explanation;
-      } else {
-        explanation.textContent = "";
-      }
+      explanation.textContent = data.explanation ? data.explanation : "";
       statusText.textContent = "";
     })
     .catch(err => {
