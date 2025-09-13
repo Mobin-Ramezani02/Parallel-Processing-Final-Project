@@ -9,7 +9,7 @@ def run_thread_question_6(scenario: str):
         logging.basicConfig(level=logging.INFO, format="%(asctime)s %(threadName)-17s %(levelname)-8s %(message)s")
 
         item = 0
-        semaphore = threading.Semaphore(0)
+        semaphore = threading.Semaphore(0) # ابتدای کار هیچ مصرف کننده ای اجازه کار نداره
 
         def consumer():
             global item
