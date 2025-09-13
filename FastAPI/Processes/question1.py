@@ -30,6 +30,5 @@ def run_process_question_1(scenario: str):
         print("ورودی نامعتبر. فقط 1-3 مجاز است.")
         return
 
-    # چاپ در والد ← حالا run_and_capture می‌بیند
     while not q.empty():
         print(q.get())
