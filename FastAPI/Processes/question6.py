@@ -94,14 +94,12 @@ class Consumer_S3(Process):
             emit(f"Process Consumer : item {item} popped from by {self.name}")
             time.sleep(random.uniform(0.1, 0.3))
 
-# ---------- ران‌کننده با if سناریو ----------
 def run_process_question_6(scenario: str):
-    ctx   = get_context("spawn")   # مهم برای ویندوز
+    ctx   = get_context("spawn")   
     dataQ = ctx.Queue()            # صف داده بین Producer/Consumer
     logQ  = ctx.Queue()            # صف لاگ برای برگرداندن خروجی به والد
 
     if scenario == "1":
-        # آلیاس اختیاری برای حس «تعریف داخل if»
         Producer = Producer_S1
         Consumer = Consumer_S1
 
@@ -144,7 +142,6 @@ def run_process_question_6(scenario: str):
         print("ورودی نامعتبر. فقط 1-3 مجاز است.")
         return
 
-    # چاپ‌ها در والد تا run_and_capture بگیرد و UI نشان دهد
     while not logQ.empty():
         print(logQ.get())
 

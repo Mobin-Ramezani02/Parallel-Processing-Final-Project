@@ -27,7 +27,6 @@ def run_process_question_7(scenario: str):
     log_q = ctx.Queue()
 
     if scenario == "1":
-        # ----- سناریوی 1: فقط با Barrier -----
         synchronizer = ctx.Barrier(2)
         serializer   = ctx.Lock()
 
@@ -40,7 +39,6 @@ def run_process_question_7(scenario: str):
         p2.join()
 
     elif scenario == "2":
-        # ----- سناریوی 2: فقط بدون Barrier -----
         p3 = ctx.Process(name='p3', target=test_without_barrier, args=(log_q,))
         p4 = ctx.Process(name='p4', target=test_without_barrier, args=(log_q,))
 
@@ -50,7 +48,6 @@ def run_process_question_7(scenario: str):
         p4.join()
 
     elif scenario == "3":
-        # ----- سناریوی 3: هر دو حالت کنار هم -----
         barrier = ctx.Barrier(2)
         lock    = ctx.Lock()
 
@@ -73,6 +70,5 @@ def run_process_question_7(scenario: str):
         print("ورودی نامعتبر. فقط 1-3 مجاز است.")
         return
 
-    # چاپ خروجی‌ها در والد تا UI ببیند
     while not log_q.empty():
         print(log_q.get())
