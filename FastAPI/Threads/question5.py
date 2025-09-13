@@ -23,7 +23,7 @@ def run_thread_question_5(scenario: str):
                     self.execute(-1)
 
         def adder(box, items):
-            print(f"N° {items} items to ADD")
+            print(f"N {items} items to ADD")
             while items > 0:
                 box.add()
                 print(f"ADDED one item -->{box.total_items} item to ADD")
@@ -31,7 +31,7 @@ def run_thread_question_5(scenario: str):
                 time.sleep(0.1)
 
         def remover(box, items):
-            print(f"N° {items} items to REMOVE")
+            print(f"N {items} items to REMOVE")
             while items > 0:
                 box.remove()
                 print(f"REMOVED one item -->{box.total_items} item to REMOVE")
@@ -71,7 +71,7 @@ def run_thread_question_5(scenario: str):
                     self.execute(-1)
 
         def adder(box, items):
-            print(f"N° {items} items to ADD")
+            print(f"N {items} items to ADD")
             while items > 0:
                 box.add()
                 print(f"ADDED one item -->{box.total_items} item to ADD")
@@ -79,7 +79,7 @@ def run_thread_question_5(scenario: str):
                 time.sleep(0.1)
 
         def remover(box, items):
-            print(f"N° {items} items to REMOVE")
+            print(f"N {items} items to REMOVE")
             while items > 0:
                 box.remove()
                 print(f"REMOVED one item -->{box.total_items} item to REMOVE")
